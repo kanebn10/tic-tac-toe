@@ -1,0 +1,73 @@
+h1{
+    margin-right: 120px;
+    color: brown;
+}
+
+td{
+    color: #6B78B4;
+}
+
+.faded{
+    opacity: 0.5;  
+}
+
+.top{
+    border-top: solid #593E1A 5px;
+}
+
+.right{
+    border-right: solid #593E1A 5px;
+}
+
+.bottom{
+    border-bottom: solid #593E1A 5px;
+}
+
+.left{
+    border-left: solid #593E1A 5px;
+}
+
+#score{
+    float: left;
+    margin: 100px 0 0 250px;
+}
+
+#board{
+    float: right;
+    margin-right: 250px;
+}
+
+#board td{
+    width: 100px;
+    height: 100px;
+}
+
+h1, td, #winner{
+    text-align:center;
+}
+
+td, #winner{
+    font-family: verdana;
+    font-size: 5em;
+}
+
+#score thead td, #score tbody td{
+    font-size: 1em;
+    font-weight: bold
+}
+
+#score thead td{
+    width: 100px;
+    height: 40px;
+}
+
+#score tbody td{
+    width: 100px;
+    height: 80px;
+    font-size: 3em;
+}
+
+#winner{
+    color: #266A2E;
+    text-align: center;
+}
